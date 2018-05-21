@@ -12,6 +12,10 @@
   justify-content: flex-end;
 }
 
+.hero>.hero-foot>.container>.columns>.column>.title, .hero>.hero-foot>.container>.columns>.column>.location>.subtitle, .hero>.hero-foot>.container>.columns>.column>.location>i, .fa-github, .fa-linkedin-in, .fa-twitter, .fa-envelope {
+  color: #F8E981;
+}
+
 .fa-github, .fa-linkedin-in, .fa-twitter, .fa-envelope {
   transition: .15s ease-out;
 }
@@ -30,10 +34,6 @@
 
 .fa-envelope:hover {
   color: #F76C6C;
-}
-
-.hero>.hero-foot>.container>.columns>.column>.title, .hero>.hero-foot>.container>.columns>.column>.location>.subtitle, .hero>.hero-foot>.container>.columns>.column>.location>i, .hero>.hero-body>.container>.columns>.column>a>i {
-  color: #F8E981;
 }
 
 .hero>.hero-foot>.container {
