@@ -1,0 +1,84 @@
+.hero {
+  background-color: #374785;
+}
+
+.hero-body>.container>.columns>.right {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-body>.container>.columns>.left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-github {
+  -webkit-transition: .15s ease-out;
+  -moz-transition: .15s ease-out;
+  -o-transition: .15s ease-out;
+  transition: .15s ease-out;
+}
+
+.fa-github:hover {
+  color: #333;
+}
+
+.fa-linkedin-in {
+  -webkit-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -o-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.fa-linkedin-in:hover {
+  color: #0077B5;
+}
+
+.fa-twitter {
+  -webkit-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -o-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-envelope {
+  -webkit-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -o-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.fa-envelope:hover {
+  color: #F76C6C;
+}
+
+.hero>.hero-foot>.container>.columns>.column>.title, .subtitle, i {
+  color: #F8E981;
+}
+
+.hero>.hero-foot>.container {
+  margin: 0;
+  margin-right: 15px
+}
+
+.hero .title {
+  font-size: 100px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.location {
+  bottom: 10px;
+  padding: 15px;
+  position: absolute;
+  right: 10px;
+}
+
+.location>.subtitle, i {
+  display: inline-block;
+  white-space: nowrap;
+}
