@@ -12,10 +12,7 @@
   justify-content: flex-end;
 }
 
-.fa-github {
-  -webkit-transition: .15s ease-out;
-  -moz-transition: .15s ease-out;
-  -o-transition: .15s ease-out;
+.fa-github, .fa-linkedin-in, .fa-twitter, .fa-envelope {
   transition: .15s ease-out;
 }
 
@@ -23,40 +20,19 @@
   color: #333;
 }
 
-.fa-linkedin-in {
-  -webkit-transition: .1s ease-out;
-  -moz-transition: .1s ease-out;
-  -o-transition: .1s ease-out;
-  transition: .1s ease-out;
-}
-
 .fa-linkedin-in:hover {
   color: #0077B5;
-}
-
-.fa-twitter {
-  -webkit-transition: .1s ease-out;
-  -moz-transition: .1s ease-out;
-  -o-transition: .1s ease-out;
-  transition: .1s ease-out;
 }
 
 .fa-twitter:hover {
   color: #1DA1F2;
 }
 
-.fa-envelope {
-  -webkit-transition: .1s ease-out;
-  -moz-transition: .1s ease-out;
-  -o-transition: .1s ease-out;
-  transition: .1s ease-out;
-}
-
 .fa-envelope:hover {
   color: #F76C6C;
 }
 
-.hero>.hero-foot>.container>.columns>.column>.title, .subtitle, i {
+.hero>.hero-foot>.container>.columns>.column>.title, .hero>.hero-foot>.container>.columns>.column>.location>.subtitle, .hero>.hero-foot>.container>.columns>.column>.location>i, .hero>.hero-body>.container>.columns>.column>a>i {
   color: #F8E981;
 }
 
@@ -78,13 +54,13 @@
   right: 10px;
 }
 
-.location>.subtitle, i {
+.location>.subtitle, .location>.subtitle>i {
   display: inline-block;
   white-space: nowrap;
 }
 
 .profile>img {
-  border: 5px solid #24305E;
+  border: 10px solid #F76C6C;
   border-radius: 50%;
 }
 
@@ -94,6 +70,38 @@
   text-align: center;
 }
 
-.skills-section {
+.tool-belt {
   background-color: #F76C6C;
+}
+
+.tool-belt .more {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.tool-belt>.container>.columns {
+  padding: 50px;
+}
+
+.tool-belt>.container>.columns>.column>.columns>.column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tool-belt p {
+  text-align: center;
+}
+
+.tool-belt i, .tool-belt img {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%)
+}
+
+img[class="non-fontawesome"] {
+  width: 50px;
+}
+
+p[class="non-fontawesome"] {
+  margin: -8px
 }
