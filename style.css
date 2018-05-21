@@ -72,7 +72,7 @@
 }
 
 .location {
-  bottom: 10px;
+  bottom: -10px;
   padding: 15px;
   position: absolute;
   right: 10px;
@@ -81,4 +81,19 @@
 .location>.subtitle, i {
   display: inline-block;
   white-space: nowrap;
+}
+
+.profile>img {
+  border: 5px solid #24305E;
+  border-radius: 50%;
+}
+
+.me p {
+  font-weight: bold;
+  padding: 75px;
+  text-align: center;
+}
+
+.skills-section {
+  background-color: #F76C6C;
 }
