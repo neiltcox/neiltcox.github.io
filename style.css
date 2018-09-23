@@ -1,3 +1,7 @@
+/* .columns{
+  margin: 0;
+} */
+
 .hero {
   background-color: #374785;
 }
@@ -98,6 +102,40 @@
   left: 50%;
   position: relative;
   transform: translate(-50%)
+}
+
+/* .involvement{
+  height: 400px;
+} */
+
+.involvement .title{
+  color: #363636;
+  margin-left: 25px;
+}
+
+.involvement .is-9, .is-3{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.involvement .is-9{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.involvement-item{
+  max-width: 20%;
+  max-height: 150px;
+}
+
+.involvement img{
+  height: auto;
+  max-height: 75px;
+}
+
+.involvement i {
+  line-height: inherit;
 }
 
 img[class="non-fontawesome"] {
