@@ -16,28 +16,36 @@
   justify-content: flex-end;
 }
 
-.hero>.hero-foot>.container>.columns>.column .title, .hero>.hero-foot>.container>.columns>.column>.location .subtitle, .hero>.hero-foot>.container>.columns>.column>.location i, .fa-github, .fa-linkedin-in, .fa-twitter, .fa-envelope {
+.hero>.hero-foot>.container>.columns>.column .title, .hero>.hero-foot>.container>.columns>.column>.location .subtitle, .hero>.hero-foot>.container>.columns>.column>.location i, .fa-github, .fa-linkedin-in, .fa-instagram, .fa-file {
   color: #F8E981;
 }
 
-.fa-github, .fa-linkedin-in, .fa-twitter, .fa-envelope {
+.fa-github, .fa-linkedin-in, .fa-instagram, .fa-file {
   transition: .15s ease-out;
 }
 
-.fa-github:hover {
-  color: #333;
+.fa-linkedin-in {
+  margin-right: 5px;
 }
 
 .fa-linkedin-in:hover {
   color: #0077B5;
 }
 
-.fa-twitter:hover {
-  color: #1DA1F2;
+.fa-file:hover {
+  color: #FFFFF0;
 }
 
-.fa-envelope:hover {
-  color: #F76C6C;
+.fa-github:hover {
+  color: #333;
+}
+
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(bottom left, #fccc63, #e95950, #8a3ab9);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#ff5db1), to(#ef017c)); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
 }
 
 .hero>.hero-foot>.container {
