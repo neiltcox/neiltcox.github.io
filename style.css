@@ -137,34 +137,6 @@
   border-radius: 50%;
 }
 
-.tool-belt {
-  background-color: #F76C6C;
-}
-
-.tool-belt .more {
-  padding-top: 50px;
-  text-align: center;
-}
-
-.tool-belt>.container>.columns {
-  padding: 50px;
-}
-
-.tool-belt>.container>.columns>.column>.columns>.column {
-  display: flex;
-  justify-content: space-around;
-}
-
-.tool-belt p {
-  text-align: center;
-}
-
-.tool-belt i, .tool-belt img {
-  left: 50%;
-  position: relative;
-  transform: translate(-50%)
-}
-
 .involvement .title{
   color: #363636;
   margin-left: 25px;
@@ -193,6 +165,46 @@
 
 .involvement i {
   line-height: inherit;
+}
+
+.tool-belt {
+  background-color: #F76C6C;
+}
+
+.tool-belt .more {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.tool-belt>.container>.columns, .projects>.container>.columns {
+  padding: 50px;
+}
+
+.tool-belt>.container>.columns>.column>.columns>.column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tool-belt p {
+  text-align: center;
+}
+
+.tool-belt i, .tool-belt img {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%)
+}
+
+.projects .project{
+  margin-bottom: 25px;
+}
+
+.projects .project .card-content{
+  height: 175px;
+}
+
+.projects .project i{
+  color: #4a4a4a;
 }
 
 img[class="non-fontawesome"] {
