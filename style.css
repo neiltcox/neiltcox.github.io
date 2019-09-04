@@ -1,5 +1,6 @@
 .hero {
   background-color: #374785;
+  overflow: hidden;
 }
 
 .hero-body>.container>.columns>.right {
@@ -38,6 +39,7 @@
 
 .fa-instagram:hover {
   background: -webkit-linear-gradient(bottom left, #fccc63, #e95950, #8a3ab9);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: initial;
@@ -49,10 +51,10 @@
 }
 
 .hero .title {
-  font-size: 100px;
-  font-weight: bold;
-  padding: 30px;
-  margin-bottom: -15px;
+  font-size: 10rem;
+  position: absolute;
+  bottom: -22px;
+  left: -37px;
 }
 
 .location {
@@ -121,6 +123,11 @@
   border: 1px solid #F39360 !important;
 }
 
+.experience .beyond-limits-marker{
+  background-color: white !important;
+  border: 2px solid black !important;
+}
+
 .education{
   background-color: #374785;
 }
@@ -180,6 +187,11 @@
   padding: 50px;
 }
 
+.projects>.container>.columns {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
 .tool-belt>.container>.columns>.column>.columns>.column {
   display: flex;
   justify-content: space-around;
@@ -195,22 +207,10 @@
   transform: translate(-50%)
 }
 
-.projects .project{
-  margin-bottom: 25px;
-}
-
 .projects .project .card-content{
   height: 175px;
 }
 
 .projects .project i{
   color: #4a4a4a;
-}
-
-img[class="non-fontawesome"] {
-  width: 50px;
-}
-
-p[class="non-fontawesome"] {
-  margin: -8px
 }
