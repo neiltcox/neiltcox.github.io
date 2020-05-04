@@ -3,9 +3,17 @@
     --primary-black: #181819;
 }
 
+.hero-head, .hero-body, .hero-foot {
+    background: linear-gradient(to right, var(--primary-white) 50%, var(--primary-black) 50%);
+}
+
+h1 {
+    font-weight: bold !important;
+    color: var(--primary-white) !important;
+}
+
 .hero-head {
     text-align: center;
-    background: linear-gradient(to right, var(--primary-white) 50%, var(--primary-black) 50%);
 }
 
 .hero-head img {
@@ -15,16 +23,11 @@
     margin-top: 75px;
 }
 
-h1 {
-    font-weight: bold !important;
-}
-
 .hero-head h1 {
     width: 150px;
     margin: auto;
     background: var(--primary-black);
     margin-top: -6px;
-    color: var(--primary-white);
     padding: 10px;
     border-radius: 10px;
 }
@@ -32,31 +35,19 @@ h1 {
 .hero-body {
     align-items: unset !important;
     justify-content: center;
-    background: linear-gradient(to right, var(--primary-white) 50%, var(--primary-black) 50%);
     padding-top: 30px;
 }
 
-.personal .fab {
+.iconify {
+    width: 64px;
+    height: 64px;
+}
+
+.personal .iconify {
     color: var(--primary-black);
 }
 
-.personal h1 {
-    transform: rotate(-90deg);
-    float: right;
-    margin-right: -20px;
-    margin-top: 50px;
-    color: var(--primary-black);
-}
-
-.professional .fab, .fas {
-    color: var(--primary-white);
-}
-
-.professional h1 {
-    transform: rotate(90deg);
-    float: left;
-    margin-left: -20px;
-    margin-top: 50px;
+.professional .iconify {
     color: var(--primary-white);
 }
 
@@ -64,10 +55,18 @@ li {
     display: flex;
     justify-content: center;
     margin: 10px;
+    transition: transform 200ms;
 }
 
-li:last-child {
-    display: unset;
-    justify-content: unset;
-    margin: unset;
+.personal li:hover {
+    transform: translate(-10px);
+}
+
+.professional li:hover {
+    transform: translate(10px);
+}
+
+.hero-foot h1 {
+    text-align: end;
+    margin: 10px;
 }
