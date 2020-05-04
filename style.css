@@ -59,11 +59,11 @@ li {
 }
 
 .personal li:hover {
-    transform: translate(-10px);
+    transform: translate(-5px);
 }
 
 .professional li:hover {
-    transform: translate(10px);
+    transform: translate(5px);
 }
 
 .hero-foot h1 {
