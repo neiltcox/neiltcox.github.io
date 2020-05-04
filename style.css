@@ -1,72 +1,73 @@
-.hero {
-    overflow: hidden;
+:root {
+    --primary-white: #f8f8ff;
+    --primary-black: #181819;
 }
 
-.columns {
-    margin: 0 !important;
+.hero-head {
+    text-align: center;
+    background: linear-gradient(to right, var(--primary-white) 50%, var(--primary-black) 50%);
 }
 
-.column {
-    padding: 0 !important;
+.hero-head img {
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid var(--primary-white);
+    margin-top: 75px;
 }
 
-.personal {
-    background: #f8f8ff;
+h1 {
+    font-weight: bold !important;
 }
 
-.professional {
-    background: #181819;
+.hero-head h1 {
+    width: 150px;
+    margin: auto;
+    background: var(--primary-black);
+    margin-top: -6px;
+    color: var(--primary-white);
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.personal .hero-body {
-    display: flex;
-    justify-content: flex-end;   
-}
-
-.professional .hero-body {
-    display: flex;
-    justify-content: flex-start;   
+.hero-body {
+    align-items: unset !important;
+    justify-content: center;
+    background: linear-gradient(to right, var(--primary-white) 50%, var(--primary-black) 50%);
+    padding-top: 30px;
 }
 
 .personal .fab {
-    color: #181819;
+    color: var(--primary-black);
+}
+
+.personal h1 {
+    transform: rotate(-90deg);
+    float: right;
+    margin-right: -20px;
+    margin-top: 50px;
+    color: var(--primary-black);
 }
 
 .professional .fab, .fas {
-    color: #f8f8ff;
+    color: var(--primary-white);
 }
 
-.personal ul {
-    list-style: none;
-}
-
-.professional ul {
-    list-style: none;
-}
-
-ul li {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.profile {
-    background: linear-gradient(to right, #f8f8ff 50%, #181819 50%);
-    text-align: center;
-}
-
-.profile img {
-    width: 150px;
-    border-radius: 50%;
+.professional h1 {
+    transform: rotate(90deg);
+    float: left;
+    margin-left: -20px;
     margin-top: 50px;
-    border: 10px solid #f8f8ff;
+    color: var(--primary-white);
 }
 
-.profile h1 {
-    width: 150px;
-    margin: auto;
-    background: #181819;
-    margin-top: -6px;
-    color: #f8f8ff;
-    font-weight: bold;
-    padding: 10px;
+li {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+li:last-child {
+    display: unset;
+    justify-content: unset;
+    margin: unset;
 }
